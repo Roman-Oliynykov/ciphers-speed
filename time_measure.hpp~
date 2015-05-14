@@ -1,12 +1,3 @@
-/*
-
-Declarations of constants and data types for ciphers speed comparison
-
-Author: Roman Oliynykov
-
-*/
-
-
 #ifndef TIME_MEASURE
 #define TIME_MEASURE
 

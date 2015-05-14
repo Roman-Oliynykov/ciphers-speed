@@ -1,12 +1,14 @@
-/* 
+/*
 
-AES (FIPS-197) implementation from the OpenSSL library based on the original Rijndael submission to the AES competition.
+Implementation of 
+- AES block cipher (code taken from the OpenSSL library based on the original Rijndael submission to the AES competition)
+- AES test vectors printing
+- memory block re-encryption using AES ECB mode
 
-
-
-Additional functions for printing test vectors and several times re-encrypting block of memory (see ../time_measure.hpp for details)
+Author: Roman Oliynykov
 
 */
+
 
 #define FULL_UNROLL
 

@@ -1,15 +1,3 @@
-/*
-
-Implementation of funcions for 
-- measuring running time for encryption;
-- encryption speed calculation based on memory amount and elapsed processor time;
-- memory initialization before encryption (preventing extra compiler optimization)
-
-Author: Roman Oliynykov
-
-*/
-
-
 #include <sys/time.h>
 
 #include <iostream>

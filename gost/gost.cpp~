@@ -1,11 +1,11 @@
 /*
 
-Implementation of 
-- GOST 28147-89 block cipher (by JSC "Institute of Information Technologies")
+Function definition for 
+
 - GOST 28147-89 test vectors printing
 - memory block re-encryption using GOST 28147-89 ECB (simple substitution) mode
 
-Author: Roman Oliynykov
+Block cipher implementation by JSC "Institute of Information Technologies"
 
 */
 

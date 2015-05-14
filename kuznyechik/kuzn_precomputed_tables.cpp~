@@ -1,12 +1,3 @@
-/*
-
-Look-up table for Kuznyechik block cipher
-
-Authors: Oleksandr Kazymyrov, Roman Oliynykov
-
-*/
-
-
 #include "kuzn_precomputed_tables.hpp"
 
 unsigned long long kuzn_s_box_mds_subst [16][256][2] = {

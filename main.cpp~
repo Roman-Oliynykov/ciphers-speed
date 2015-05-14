@@ -2,7 +2,7 @@
 
 main() funcion for speed comparison of block ciphers optimized software implementation
 - printing test vectors of all ciphers;
-- measuring running time for encryption and printing encryption speed of all ciphers
+- measuring running time for encryption and printing encryption speed of all ciphers;
 
 Author: Roman Oliynykov
 

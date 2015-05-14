@@ -1,9 +1,13 @@
-// This file contains implementation of BelT Algorithm
-// with 256 bit key length
-// Copyright 2011 PlainText.SU
+/*
 
+Implementation of 
+- BelT block cipher (code taken from PlainText.SU)
+- BelT test vectors printing
+- memory block re-encryption using BelT ECB mode
 
+Author: Roman Oliynykov
 
+*/
 
 #include <cstdio>
 #include <iostream>

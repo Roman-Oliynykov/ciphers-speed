@@ -1,10 +1,9 @@
 /*
-
-Look-up table declaration for Kuznyechik block cipher
-
-Author: Roman Oliynykov
-
-*/
+ * kuzn_precomputed_tables.hpp
+ *
+ *  Created on: Apr 7, 2015
+ *      Author: rom
+ */
 
 #ifndef KUZN_PRECOMPUTED_TABLES_HPP_
 #define KUZN_PRECOMPUTED_TABLES_HPP_

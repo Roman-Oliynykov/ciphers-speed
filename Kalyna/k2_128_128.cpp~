@@ -1,15 +1,3 @@
-/*
-
-Implementation of 
-- Kalyna-128/128 block cipher
-- Kalyna-128/128 test vectors printing
-- memory block re-encryption using Kalyna-128/128 ECB mode
-
-Author: Roman Oliynykov
-
-*/
-
-
 #include <cstdio>
 
 #include "k2_constants.hpp"

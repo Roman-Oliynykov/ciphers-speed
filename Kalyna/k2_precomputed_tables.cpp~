@@ -1,12 +1,3 @@
-/*
-
-Look-up table for Kalyna block cipher
-
-Authors: Ruslan Mordvinov, Roman Oliynykov
-
-*/
-
-
 #include "k2_precomputed_tables.hpp"
 
 unsigned long long k_s_box_mds_subst [8][256] = {

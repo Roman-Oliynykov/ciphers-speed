@@ -1,14 +1,10 @@
-/*
-
-Implementation of 
-- Kuznyechik block cipher
-- Kuznyechik test vectors printing
-- memory block re-encryption using Kuznyechik ECB mode
-
-Author: Roman Oliynykov
-
-*/
-
+//============================================================================
+// Name        : kuzniechik.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
 
 #include <iostream>
 #include <cstdio>

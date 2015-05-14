@@ -1,15 +1,3 @@
-/*
-
-Implementation of 
-- Kalyna-256/512 block cipher
-- Kalyna-256/512 test vectors printing
-- memory block re-encryption using Kalyna-256/512 ECB mode
-
-Author: Roman Oliynykov
-
-*/
-
-
 #include <cstdio>
 
 #include "k2_constants.hpp"
