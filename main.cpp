@@ -8,9 +8,6 @@ Author: Roman Oliynykov
 
 */
 
-
-encryption speed comparison of 64-bit Linux optimized software implementation of block ciphers
-
 #include <iostream>
 
 using std::cin;
