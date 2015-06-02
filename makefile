@@ -14,8 +14,8 @@ ciphersfast: $(SRC) $(HPP) makefile
 	$(CC) -m64 -O3 $(SRC) -o ciphersfast
 	./ciphersfast
 clean:
-	rm kalynafast
-	rm kalynadirect
+	rm ciphersfast
+	rm ciphersdirect
 run:
 	./ciphersfast
 	./ciphersdirect
