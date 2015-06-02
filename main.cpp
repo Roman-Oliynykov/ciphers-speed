@@ -51,16 +51,16 @@ int main()
 	cout << endl << "Encryption speed test results:" << endl << endl;
 
 /// K-128-128
-	InitMemoryEncryptionBlock();
-	DetermineTime( start_ticks );
-
-	Test_K2_128_128_Speed_Expanded_Memory();
-
-	DetermineTime( finish_ticks );
-
-	cout.width( 28 );
-	cout << " Kalyna-128/128 : " << CalculateEncryptionSpeedMemory( start_ticks, finish_ticks ) \
-				<< " Mb/s" << endl << endl;
+//	InitMemoryEncryptionBlock();
+//	DetermineTime( start_ticks );
+//
+//	Test_K2_128_128_Speed_Expanded_Memory();
+//
+//	DetermineTime( finish_ticks );
+//
+//	cout.width( 28 );
+//	cout << " Kalyna-128/128 : " << CalculateEncryptionSpeedMemory( start_ticks, finish_ticks ) \
+//				<< " Mb/s" << endl << endl;
 
 /// K-128-256
 	InitMemoryEncryptionBlock();
@@ -90,42 +90,42 @@ int main()
 
 
 /// K-256-512
-	InitMemoryEncryptionBlock();
-	DetermineTime(start_ticks);
-
-	Test_K2_256_512_Speed_Expanded_Memory();
-
-	DetermineTime(finish_ticks);
-
-	cout.width( 28 );
-	cout << " Kalyna-256/512 : "
-			<< CalculateEncryptionSpeedMemory(start_ticks, finish_ticks)
-			<< " Mb/s" << endl << endl;
+//	InitMemoryEncryptionBlock();
+//	DetermineTime(start_ticks);
+//
+//	Test_K2_256_512_Speed_Expanded_Memory();
+//
+//	DetermineTime(finish_ticks);
+//
+//	cout.width( 28 );
+//	cout << " Kalyna-256/512 : "
+//			<< CalculateEncryptionSpeedMemory(start_ticks, finish_ticks)
+//			<< " Mb/s" << endl << endl;
 
 /// K-512-512
-	InitMemoryEncryptionBlock();
-	DetermineTime(start_ticks);
-
-	Test_K2_512_512_Speed_Expanded_Memory();
-
-	DetermineTime(finish_ticks);
-
-	cout.width( 28 );
-	cout << " Kalyna-512/512 : "
-			<< CalculateEncryptionSpeedMemory(start_ticks, finish_ticks)
-			<< " Mb/s" << endl << endl;
+//	InitMemoryEncryptionBlock();
+//	DetermineTime(start_ticks);
+//
+//	Test_K2_512_512_Speed_Expanded_Memory();
+//
+//	DetermineTime(finish_ticks);
+//
+//	cout.width( 28 );
+//	cout << " Kalyna-512/512 : "
+//			<< CalculateEncryptionSpeedMemory(start_ticks, finish_ticks)
+//			<< " Mb/s" << endl << endl;
 
 /// AES-128-128
-	InitMemoryEncryptionBlock();
-	DetermineTime( start_ticks );
-
-	Test_AES_128_128_Speed_Expanded_Memory();
-
-	DetermineTime( finish_ticks );
-
-	cout.width( 28 );
-	cout << " AES-128 : " << CalculateEncryptionSpeedMemory( start_ticks, finish_ticks ) \
-				<< " Mb/s" << endl << endl;
+//	InitMemoryEncryptionBlock();
+//	DetermineTime( start_ticks );
+//
+//	Test_AES_128_128_Speed_Expanded_Memory();
+//
+//	DetermineTime( finish_ticks );
+//
+//	cout.width( 28 );
+//	cout << " AES-128 : " << CalculateEncryptionSpeedMemory( start_ticks, finish_ticks ) \
+//				<< " Mb/s" << endl << endl;
 
 /// AES-128-256
 	InitMemoryEncryptionBlock();
@@ -141,17 +141,17 @@ int main()
 			<< " Mb/s" << endl << endl;
 
 /// GOST 28147-89
-	InitMemoryEncryptionBlock();
-	DetermineTime(start_ticks);
-
-	Test_GOST_Speed_Expanded_Memory();
-
-	DetermineTime(finish_ticks);
-
-	cout.width( 28 );
-	cout << " GOST 28147-89 : "
-			<< CalculateEncryptionSpeedMemory(start_ticks, finish_ticks)
-			<< " Mb/s" << endl << endl;
+//	InitMemoryEncryptionBlock();
+//	DetermineTime(start_ticks);
+//
+//	Test_GOST_Speed_Expanded_Memory();
+//
+//	DetermineTime(finish_ticks);
+//
+//	cout.width( 28 );
+//	cout << " GOST 28147-89 : "
+//			<< CalculateEncryptionSpeedMemory(start_ticks, finish_ticks)
+//			<< " Mb/s" << endl << endl;
 
 /// BelT
 	InitMemoryEncryptionBlock();
