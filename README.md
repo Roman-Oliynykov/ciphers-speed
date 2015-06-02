@@ -15,14 +15,14 @@ Encryption speed comparison of 64-bit Linux optimized software implementation of
 | Block cipher        | Performance, Mbit/s |
 |---------------------|--------------------:|
 | Kalyna-128/128      | 2611.77  |
-| Kalyna-128/256      | 1779.52  |
+| Kalyna-128/256      | 1809.70  |
 | Kalyna-256/256      | 2017.97  |
 | Kalyna-256/512      | 1560.89  |
 | Kalyna-512/512      | 1386.46  |
 | AES-128             | 2525.89  |
 | AES-256             | 1993.53  |
 | GOST 28147-89       | 639.18   |
-| STB 34.101.31-2011  | 1055.92  |
+| STB 34.101.31-2011  | 1188.83  |
 | Kuznyechik          | 1081.08  |
 
 ###iMac13.2, Intel Core i7
@@ -37,10 +37,7 @@ Encryption speed comparison of 64-bit Linux optimized software implementation of
 | AES-128             | 1645.97  |
 | AES-256             | 1189.04  |
 | GOST 28147-89       | 569.48  |
-| STB 34.101.31-2011  | 936.66  |
+| STB 34.101.31-2011  | TBD  |
 | Kuznyechik          | 1158.67  |
-
-
-
 
 

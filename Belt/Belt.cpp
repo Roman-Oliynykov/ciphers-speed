@@ -293,7 +293,6 @@ void print_BelT_test() {
 		printf("%3x", text[i]);
 	printf("\n");
 
-//	belt_encrypt( (unsigned __int8 *) text, (unsigned __int8 *)bt_key);
 	belt_encrypt( bt_block, bt_key );
 
 	printf("ciphertext: ");
